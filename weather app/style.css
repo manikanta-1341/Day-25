@@ -1,0 +1,82 @@
+body{
+    background-image: linear-gradient(to bottom, #00bdff, #00b5ff, #00aeff, #00a6ff, #009dff, #009dff, #009dff, #009dff, #00a6ff, #00aeff, #00b5ff, #00bdff);
+    background-size: contain;
+}
+.container{
+    width: auto;
+    margin:auto;
+}
+.header{
+    margin-top:50px;
+    border:none;
+    padding:0;
+    border:1px solid rgb(100, 100, 100);
+    border-radius:10px;
+}
+.search_feild{
+    width:auto;
+    font-size:18px;
+    padding:5px 10px;
+    background-color:inherit;
+    border:none;
+    color:white;
+}
+.search_btn{
+    border:none;
+    border-left:1px solid rgb(100, 100, 100);
+    background-color:inherit;
+    color:white;
+    font-weight:600;
+    font-size:18px;
+    padding:5px 10px;
+    /* width:auto;
+    margin: auto; */
+}
+.display_area{
+    margin-top:50px;
+    background:transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding:50px;
+    color:white;
+}
+.moredetails{
+    border:none;
+    border-bottom:2px solid;
+    background-color:inherit;
+    color:white;
+}
+
+.date{
+    margin-left:20px;
+    font-size:16px;
+}
+.display_area label{
+    margin-right:10px;
+}
+.more_details_div label{
+    margin-right:30px;
+}
+.search_feild:focus {
+    outline:none;
+}
+
+@media (min-width: 320px) and (max-width: 766px){
+    .container{
+        margin:0 -12px;
+    }
+    .display_area{
+        padding:15px 5px;
+    }
+    .date{
+        margin:0px;
+        margin-top:10px;
+    }
+    .more_details_div{
+        margin-top: 30px;
+        
+    }
+    .moredetails{
+        width:auto;
+        margin:auto;
+    }
+}
